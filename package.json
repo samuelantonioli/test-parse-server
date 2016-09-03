@@ -1,0 +1,23 @@
+{
+  "name": "test-parse-server",
+  "version": "1.0.0",
+  "description": "Parse Server and Parse Dashboard. Just npm install and npm start",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelantonioli/test-parse-server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "parse-dashboard": "*",
+    "parse-server": "*",
+    "parse-server-fs-store-adapter": "git+https://github.com/samuelantonioli/parse-server-fs-store-adapter.git",
+    "parse-server-nodemailer-adapter": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  }
+}
