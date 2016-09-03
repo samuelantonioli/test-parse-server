@@ -5,7 +5,7 @@ Based on [parse-server-example](https://github.com/ParsePlatform/parse-server-ex
 
 ## Setup
 
-You only need to do the setup only once.
+You only need to do the setup once.
 
 **MongoDB**
 
